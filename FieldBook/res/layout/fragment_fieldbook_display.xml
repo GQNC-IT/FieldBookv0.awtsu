@@ -1,0 +1,51 @@
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        tools:context="com.example.fieldbook.MainActivity$PlaceholderFragment" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:onClick="createNew"
+            android:text="@string/create"
+            android:drawableLeft="@drawable/greencross"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:drawablePadding="2dip"
+    		android:paddingLeft="30dip"
+    		android:paddingRight="32dip" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="generateXLS"
+            android:text="@string/trialXLS" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="generateTSV"
+            android:text="@string/trialTSV" />
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:divider="#666666"
+            android:dividerHeight="4px" >
+
+        </ListView>
+
+    </LinearLayout>
+

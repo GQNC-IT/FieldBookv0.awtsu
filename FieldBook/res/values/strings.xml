@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FieldBook</string>
+    <string name="action_settings">Settings</string>
+   
+    <string name="label_fieldbook">FIELDBOOK</string>
+    <string name="button_submit_login">Login</string>
+    <string name="edit_username"></string>
+    <string name="label_username"> Username </string>
+    <string name="label_password"> Password </string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_display_message">Login Details</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="button_submit_signup_data">Dont have an account yet? Tap here </string>
+    <string name="label_userid"> User ID </string>
+    <string name="edit_userid"></string>
+    <string name="label_firstname"> First Name </string>
+    <string name="edit_firstname"></string>
+    <string name="label_middlename"> Middle Name </string>
+    <string name="edit_middlename"></string>
+    <string name="label_lastname"> Last Name </string>
+    <string name="edit_lastname"></string>
+    <string name="label_companyid"> Company ID </string>
+    <string name="edit_companyid"></string>
+    <string name="label_birthdate"> Birthdate </string>
+    <string name="edit_birthdate"></string>
+    <string name="button_submit_signup">Submit</string>
+    <string name="title_activity_signup_display">SignupDisplayActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="create">Create New Fieldbook</string><string name="name">Name: </string>
+    <string name="create2">Create</string>
+    <string name="log">Log out</string>
+    
+    <string name="trialTSV">Generate TSV</string>
+    <string name="trialXLS">Generate XLS</string>
+    
+    <!--  Action Bar -->
+    <string name="action_logout">Logout</string>
+    <string name="action_import_export">Import/Export</string>
+    <string name="action_share">Share</string>
+    <string name="action_check_update">Check Updates</string>
+
+</resources>

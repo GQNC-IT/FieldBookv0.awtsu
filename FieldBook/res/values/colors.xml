@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  
+    <color name="light_green">#E0EEE0</color>
+    <color name="dark_green"> #9CBA7F </color>
+    -->
+    <item name="light_green" type="color">#E0EEE0</item>
+    <item name="dark_green" type="color">#9CBA7F</item>
+    <item name="actionbar_text" type="color">#FFFFFFFF</item>
+</resources>
